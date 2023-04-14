@@ -1,10 +1,12 @@
 export interface Role {
+    "id": number,
+    "achievements": string[],
     "company": string,
-    "position": string,
-    "period": string,
-    "jobType": string,
-    "summary": string,
-    "detailedDescription": string,
+    "description": string,
     "icon": string,
-    "reveal": boolean,
+    "jobType": string,
+    "period": string,
+    "position": string,
+    "summary": string,
+    "url": string,
 }

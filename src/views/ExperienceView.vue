@@ -2,7 +2,7 @@
     <v-layout>
         <v-card class="mx-auto mt-5" width="800">
             <v-main>
-                <v-card :append-icon="role.icon" v-for="(role, index) in roles" :key="1">
+                <v-card :append-icon="role.icon" v-for="(role, index) in store.roles" :key="1">
                     <template v-slot:title>
                         <a href="https://www.tredz.co.uk/" target="_blank">
                             {{ role.company }}
@@ -37,7 +37,6 @@
                     </v-expand-transition>
                 </v-card>
             </v-main>
-
         </v-card>
     </v-layout>
 </template>
@@ -46,16 +45,12 @@
 
 import { reactive, onBeforeMount, ref } from 'vue';
 import RoleService from '../services/RoleService'
-import type { Role } from "../types/role";
+import { userAuthStore } from "../stores/store"
 
-let roles = ref<Role[]>([])
+const store = userAuthStore()
 
 onBeforeMount(async () => {
-    RoleService.getRoles()
-        .then(response => {
-            roles.value = JSON.parse(JSON.stringify(response.data))
-        })
-}
-)
+    store.getRoles()
+})
 
 </script>

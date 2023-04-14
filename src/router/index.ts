@@ -35,9 +35,19 @@ const router = createRouter({
           component: () => import('@/views/ProfileView.vue')
         },
         {
-          path: 'work',
-          name: 'Work',
-          component: () => import('@/views/ExperienceView.vue')
+          path: 'roles',
+          name: 'Experience',
+          component: () => import('@/views/Experience.vue')
+        },
+        {
+          path: 'roles/:id',
+          name: 'Role',
+          component: () => import('@/views/Role.vue'),
+          beforeEnter: (to, from) => {
+            if(from.name !== "Experience"){
+              router.push({ name: "Experience" })
+            }
+          },
         },
         {
           path: 'information',

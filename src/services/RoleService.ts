@@ -5,13 +5,17 @@ const apiClient = axios.create({
   withCredentials: false,
   headers: {
     Accept: 'application/json',
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
+    Authorization: 'Bearer jwt-fake-token'
   }
 })
 
 export default {
   getRoles() {
-    return apiClient.get('/roles')
+    console.log(axios.defaults.headers)
+    return apiClient.get(
+      "/roles"
+      )
   },
   // getProfile() {
   //   return null

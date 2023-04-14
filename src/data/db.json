@@ -1,0 +1,200 @@
+{
+	"roles": [{
+			"id": 1,
+			"achievements": [
+				"Upgraded a system from dot net framework 4.x to dot net 6.",
+				"Created an Azure Devops YAML pipeline for continuous deployment of the system above.",
+				"Developed a dot net 6 C# RESTful Web API.",
+				"Worked on a Windows Forms app to consume the Web API.",
+				"Integrated the Web API and Forms App with Azure Service Bus and SignalR.",
+				"Retrospectively added Unit Tests to the Web API and Forms App."
+			],
+			"company": "Tredz",
+			"description": "As a doofer at Tredz blah blah blah",
+			"jobType": "Permanent",
+			"period": "Oct 2022 - Apr 2023",
+			"position": "Senior .Net Developer",
+			"summary": "Microservices, RESTful Web API, C#, Dot Net 6, Polly, XUnit, Moq, EF Core, IaC, YAML",
+			"url": "https://www.tredz.co.uk/"
+		},
+		{
+			"id": 2,
+			"achievements": [
+				"Introduced the Gitflow and Pull Request Processes to improve code quality.",
+				"Created Azure Devops YAML Pipelines to improve the release process.",
+				"Adopted Azure Blueprints and ARM Templates for IaC.",
+				"Created multiple environments for different stages of the product lifecycle.",
+				"Migrated the website to an Azure App Service hosted behind an Azure Application Gateway and WAF",
+				"Integrated Application Insights and Log Analytics",
+				"Produced an Azure based utilily composed using Alerts a Logic App and a Function App to recognise and block nefarious traffic",
+				"Supported the adoption of Azure Event Grid and SignalR.",
+				"Mentored the team in relation to new and existing technologies.",
+				"Hosted Pair / Mob programming sessions and Workshops when introducing new technologies", 
+				"Became the go to problem solver and troubleshooter when required",
+				"Produced Prototypes and or Documented Design Proposals for new work",
+				"Drove the decision making process in relation to solutionizing",
+				"Worked on the Strategy for the Development Team",
+				"Led the interview process from a technical perspective",
+				"Oversaw process and governance of the technical team"
+							],
+			"company": "ATR",
+			"description": "As a doofer at ATR blah blah blah",
+			"jobType": "Permanent",
+			"period": "Mar 2020 - Sep 2022",
+			"position": "Senior .Net Developer",
+			"summary": "Azure, PaaS, FaaS, IaC, YAML, Docker, C#, Vue JS, SQL, Cosmos DB, Dapper, XUnit, Moq, Powershell",
+			"url": "https://www.attheraces.com/"
+		},
+		{
+			"id": 3,
+			"achievements": [
+				"Contributed to the development of a C# ASP.Net MVC website.",
+				"Supported the technical infrastructure of a 24/7 gym chain.",
+				"Led the development of a mobile app for a company that provides PAT testing services."
+			],
+			"company": "Pace IT",
+			"description": "As a doofer at ATR blah blah blah",
+			"jobType": "Permanent",
+			"period": "Oct 2019 - Feb 2020",
+			"position": "Senior Developer",
+			"summary": "ASP.NET MVC, C#, NUnit, Moq, EF, SQL, NativeScript",
+			"url": "https://propeltech.co.uk/"
+		},
+		{
+			"id": 4,
+			"achievements": [
+                "Led and mentored a team of four developers",
+				"Development of a web-based scheduling tool using C#, KnockoutJS, ASP.NET MVC and SQL.",
+				"Hosted learning workshops for the whole of the development department."
+			],
+			"company": "R2C Online",
+			"description": "As a doofer at ATR blah blah blah",
+			"jobType": "Permanent",
+			"period": "Jul 2019 - Oct 2019",
+			"position": "Senior Developer",
+			"summary": "C#, KnockoutJS, SQL",
+			"url": "https://www.r2conline.com/"
+		},
+		{
+			"id": 5,
+			"achievements": [
+				"Implemented new features and fixed existing bugs in the ASP.Net learning platform.",
+				"Oversaw the migration of the platform to React, Rails and Postgres.",
+				"Scheduled and managed the incremental swiching of platforms."
+			],
+			"company": "AxeEdge",
+			"description": "As a doofer at ATR blah blah blah",
+			"jobType": "Contract",
+			"period": "Dec 2017 - Apr 2019",
+			"position": "Senior .Net Developer",
+			"summary": "C#, MVC, JQuery, Bootstrap, SQL, React",
+			"url": "https://boomwriter.com/"
+		},
+		{
+			"id": 6,
+			"achievements": [
+				"Developed a .Net Core 2 etl app using Elastic Search, Nest Client and Bigquery respectively.",
+				"Produced queries to extract data from Elastic Search.",
+				"Transformed the data using Nest Client.",
+				"Loaded the data into Bigquery.",
+				"Used a HttpClient wrapped with the Polly circuit breaker to manage connectivity issues."
+			],
+			"company": "Crisp Thinking",
+			"description": "As a doofer at ATR blah blah blah",
+			"jobType": "Contract",
+			"period": "Sep 2017 - Dec 2017",
+			"position": "Developer",
+			"summary": "C#, .Net Core 2, Polly, Elastic Search, Bigquery",
+			"url": "https://www.crispthinking.com/"
+		},
+		{
+			"id": 7,
+			"achievements": [
+				"Developed an online tool for Network Rail that Safeguards workers on the UK Rail network."
+			],
+			"company": "RTS Solutions",
+			"description": "As a doofer at Tredz blah blah blah",
+			"jobType": "Contract",
+			"period": "Dec 2016 - Jul 2017",
+			"position": "Senior .Net Developer",
+			"summary": "C#, MVC, JQuery, SQL",
+			"url": "https://www.rts-solutions.net/"
+		},
+		{
+			"id": 8,
+			"achievements": [
+				"Developed numerous applications for the different businesses within Sky."
+			],
+			"company": "Sky",
+			"description": "As a doofer at Tredz blah blah blah",
+			"jobType": "Contract",
+			"period": "Jun 2016 - Dec 2016",
+			"position": "Senior .Net Developer",
+			"summary": "Microservices, C#, React, RESTful Web API, SQL, EF, CircleCI, Octopus, AppVeyor",
+			"url": "https://www.sky.com/"
+		},
+		{
+			"id": 9,
+			"achievements": [
+				"Designed and developed a system that generated digital public transport timetables.",
+				"Trained existing staff in the new system."
+			],
+			"company": "SYPTE",
+			"description": "As a doofer at Tredz blah blah blah",
+			"jobType": "Contract",
+			"period": "Feb 2016 - May 2016",
+			"position": "Lead Developer",
+			"summary": "VB.Net, SQL, EF, XML, XSLT, XSLFO, Web Api, Knockout, Bootstrap",
+			"url": "https://www.travelsouthyorkshire.com/"
+		},
+		{
+			"id": 10,
+			"achievements": [
+				"My time at Park Dean was spent working on the migration of a .NET web forms site into SiteCore",
+                "Unfortunately, the project was cancelled but I have included the entry for clarity.."
+			],
+			"company": "Park Dean Holidays",
+			"description": "As a doofer at Tredz blah blah blah",
+			"jobType": "Contract",
+			"period": "Jan 2016 - Feb 2016",
+			"position": ".Net Developer",
+			"summary": "C#, MVC, SiteCore",
+			"url": "https://www.parkdeanresorts.co.uk/"
+		},
+		{
+			"id": 11,
+			"achievements": [
+				"Developed a reporting engine to preprocess reports on a node server using D3, NodeJS and JSDOM.",
+				"Created an admin tool that was used to create dashboards of customisable widgets."
+			],
+			"company": "MyKnowledgeMap",
+			"description": "As a doofer at Tredz blah blah blah",
+			"jobType": "Contract",
+			"period": "May 2015 - Oct 2015",
+			"position": "Developer",
+			"summary": "C#, Web API, AngularJS, EF, D3",
+			"url": "https://www.myknowledgemap.com/"
+		},
+		{
+			"id": 12,
+			"achievements": [
+				"Assisted in the migration of a web based learning application."
+			],
+			"company": "The Test Factory",
+			"description": "As a doofer at Tredz blah blah blah",
+			"jobType": "Contract",
+			"period": "Feb 2015 - May 2015",
+			"position": "Senior Developer",
+			"summary": "MVC 5, KnockoutJS, HTML 5, CSS3, EF",
+			"url": "https://www.gl-education.com/"
+		}
+	],
+	"users": [{
+		"id": 1,
+		"userName": "mbrown",
+		"name": "Mark Brown",
+		"email": "mark@azdev.space",
+		"token": "jwt-fake-token",
+		"password": "password123"
+	}]
+}

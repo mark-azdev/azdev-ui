@@ -1,10 +1,11 @@
 <template>
     <v-app-bar color="success" :elevation="12" collapse-on-scroll>
+        <v-app-bar-nav-icon variant="text"></v-app-bar-nav-icon>
         <v-toolbar-title align="center">
-            .Net Developer / Azure Engineer / Front End Handyman
+            .Net Developer
         </v-toolbar-title>
 
-        <template v-slot:append>
+        <!-- <template v-slot:append>
             <v-btn icon="mdi-email"></v-btn>
             <v-btn icon="mdi-phone"></v-btn>
             <v-btn icon="mdi-map-marker"></v-btn>
@@ -12,7 +13,7 @@
             <v-btn icon="mdi-github"></v-btn>
             <v-btn @click="toggleTheme" text>Toggle Theme</v-btn>
             <v-btn :to="{ name: 'Login' }">Login</v-btn>
-        </template>
+        </template> -->
     </v-app-bar>
 </template>
 
