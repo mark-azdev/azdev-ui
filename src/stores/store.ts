@@ -13,6 +13,7 @@ export const userAuthStore = defineStore("user", () => {
   const router = useRouter()
   const id = ref<number>(1)
   const roles = ref<Role[]>([])
+  const drawer = ref<Boolean>(false)
 
   const baseUrl = "https://my-json-server.typicode.com/mark-azdev/azdev-json-server"
 
@@ -40,7 +41,13 @@ export const userAuthStore = defineStore("user", () => {
     axios.defaults.headers.common["Authorization"] = `Bearer ${authUser.value.token}`
   }
 
+  function sleep(ms: number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
   async function getRoles() {
+
+    // await sleep(5000)
 
     let rolesObject;
 
